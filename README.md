@@ -10,5 +10,5 @@ Cardio NOVA is a web-app designed to helps heart failure patients and their care
 
 #### Info  
 - Using: Foundation, Bootstrap (glyphicons only), jQuery, Apigee, iHealth API, Validic API  
-- Runs on server throught ```index.html```
+- Runs on server through ```index.html```
 - Optomized for iOS browser
