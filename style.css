@@ -1,0 +1,203 @@
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+div.row { max-width: none; }
+
+div.titleWrapper {
+    height: 90px;
+    text-align: center;
+    background-image:url('pic/TitleBar.png');
+    margin-bottom: 5px;
+}
+div.alertArea {
+    padding-top: 10px;
+    height: 0px; /*145*/
+}
+div.infoArea {
+    height: 275px;
+}
+div.infoArea > div.row {
+    margin: 8px 0 8px 0;
+}
+div.divider {
+    width: auto;
+    border-top: 1px solid #e7e7e7; 
+}
+span.glyphicon {
+    top: 0;
+    z-index: 10;
+}
+
+
+/* ============================
+    Title
+=============================== */
+div.title {
+    height: 90px;
+    padding-left: 8px;
+}
+div.brandLogo {
+    background-image:url('pic/brandLogo.png');
+    background-repeat: no-repeat;
+    height: 70px;
+    padding-top: 0px;
+    margin-top: 8px;
+}
+span.chatIcon {
+    font-size: 53px;
+    padding-top: 13px;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 -1px 0 #888;
+}
+div.chat {
+    border-left: 1px solid rgba(255, 255, 255, 0.33);
+    height: 90px;
+}
+
+/* ============================
+    Info Area
+=============================== */
+div.info {
+    font-size: 48px;
+    color: rgb(80, 80, 80);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 6px 0 0 7px;
+}
+div.unit {
+    padding: 58px 0 0 0;
+    text-align: right;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+}
+div.icon {
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+}
+div.weightIcon {
+    background-image:url('pic/Scale.png');
+}
+div.pressureIcon {
+    background-image:url('pic/BloodPressure.png');
+}
+div.rateIcon {
+    background-image:url('pic/HeartRate.png');
+}
+div.oxyIcon {
+    background-image:url('pic/O2.png');
+}
+
+/* ============================
+    Alert Area
+=============================== */
+
+
+/* ============================
+    2. Message Area
+=============================== */
+div.msgArea {
+    display: none;
+    background: rgb(255, 236, 254);  
+    padding: 12px 0 12px 0;
+}
+div.row.msgArea {
+    margin: 0;
+}
+span.msgIcon {
+    font-size: 58px;
+    padding-top: 3px;
+    color: red;
+}
+div.msgText {
+    font-size: 22px;
+    line-height: 36px;
+    color: red;
+}
+/* ============================
+    2. Content Area
+=============================== */
+div.weightContentArea {
+    background-image:url('pic/weightHis.png');
+    background-repeat: no-repeat;
+    height: 448px;
+}
+div.pressureContentArea {
+    background-image:url('pic/pressureHis.png');
+    background-repeat: no-repeat;
+    height: 448px;
+}
+
+
+/* ============================
+    3. Chat
+=============================== */
+div.profileArea {
+    margin: 30px 0 10px 0;
+}
+div.profilePic {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+div.profilePic1 { background-image:url('pic/profilePic1.jpg'); }
+div.profilePic2 { background-image:url('pic/profilePic2.jpg'); }
+div.profilePic3 { background-image:url('pic/profilePic3.jpg'); }
+div.profilePic4 { background-image:url('pic/profilePic4.jpg'); }
+
+div.profileTitle {
+    float: left !important;
+    margin-top: 19px;
+    font-weight: bold;
+    font-size: 20px;
+}
+textarea {
+    font-size: 20px;
+    height: 120px;
+    resize: none;
+    vertical-align: top; 
+    transition: height 0.2s;
+    -webkit-transition: height 0.2s; 
+    -moz-transition: height 0.2s;
+}
+
+
+/* ============================
+    Effects
+=============================== */
+.blink {
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 3;
+}
+
+@-moz-keyframes blinker {  /* Decimal not necessary, 0 and 1 is enough */
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+.red {
+    color: red;
+}
+
+
+

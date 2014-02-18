@@ -1,0 +1,121 @@
+body, .tweetbox textarea, input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background: lightblue;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.tweetbox {
+  background: #f5f5f5;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.tweetbox textarea {
+  width: 289px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.tweetbox input, .tweet_counter {
+  float: right;
+}
+
+.tweet_counter {
+  line-height: 22px;
+  margin-right: 5px;
+}
+
+.tweets {
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tweet {
+  clear: both;
+  padding: 10px;
+  position: relative;
+  border-top: 1px solid #ccc;
+}
+
+.avatar {
+  float: left;
+  margin-right: 10px;
+  width: 48px;
+}
+
+.avatar img {
+  display: block;
+}
+
+.tweet_details {
+  margin-left: 58px;
+}
+
+.tweet_content {
+  margin: 5px 0 0;
+  line-height: 18px;
+}
+
+.time {
+  float: right;
+  color: #999;
+}
+
+.author {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.dogear {
+position: absolute;
+top: 0;
+right: 0;
+display: none;
+width: 24px;
+height: 24px;
+}
+
+.icon {
+  vertical-align: text-top;
+  background-image: url(twitter_web_sprite_icons.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.retweeted .dogear, .favorited .dogear, .retweeted.favorited .dogear {
+  display: block;
+}
+
+.favorited .dogear {
+background-position: -30px -450px;
+}
+
+.retweeted .dogear {
+background-position: 0px -450px;
+}
+
+.favorited.retweeted .dogear {
+background-position: -60px -450px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>APP Demo</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-font-badge.min.css" rel="stylesheet" type="text/css">
+    <!-- jQueryUI -->
+    <!-- <link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css"> -->
+    <!-- Foundation -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="row titleWrapper">
+        <div class="small-8 columns title"><div class="brandLogo"></div></div>
+        <div class="small-4 columns chat"><span class="glyphicon glyphicon-comment chatIcon"></span></div>
+    </div>
+    
+    <!-- Info Area -->
+    <div class="columns infoArea">
+        <div class="row weightBtn">
+            <div class="small-3 large-3 columns icon weightIcon"></div>
+            <div class="small-7 large-7 columns info weightInfoTitle"><span class="weightInfo"></span></div>
+            <div class="small-2 large-2 columns unit">Lb</div>
+        </div>
+
+        <div class="row divider"></div>
+
+        <div class="row pressureBtn">
+            <div class="small-3 large-3 columns icon pressureIcon"></div>
+            <div class="small-7 large-7 columns info pressureInfoTitle"><span class="pressureInfoS"></span>/<span class="pressureInfoD"></span></div>
+            <div class="small-2 large-2 columns unit">mmHg</div>
+        </div>
+
+        <div class="row divider"></div>
+
+        <div class="row rateBtn">
+            <div class="small-3 large-3 columns icon rateIcon"></div>
+            <div class="small-7 large-7 columns info rateInfoTitle"><span class="rateInfo"></span></div>
+            <div class="small-2 large-2 columns unit">bpm</div>
+        </div>
+
+        <div class="row divider"></div>
+
+        <div class="row oxyBtn">
+            <div class="small-3 large-3 columns icon oxyIcon"></div>
+            <div class="small-7 large-7 columns info oxyInfoTitle"><span class="oxyInfo"></span></div>
+            <div class="small-2 large-2 columns unit">%</div>
+        </div>
+    </div>
+
+    <!-- Alert Area -->
+    <div class="columns alertArea">
+
+    </div>  
+
+
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="https://apigee.com/usergrid/sdk/usergrid.0.10.5.js"></script>
+    <!--<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>-->
+    <script src="js/vendor/custom.modernizr.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.alerts.js"></script>
+    <script src="js/foundation/foundation.clearing.js"></script>
+    <script src="js/foundation/foundation.cookie.js"></script>
+    <script src="js/foundation/foundation.dropdown.js"></script>
+    <script src="js/foundation/foundation.forms.js"></script>
+    <script src="js/foundation/foundation.joyride.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
+    <script src="js/foundation/foundation.placeholder.js"></script>
+    <script src="js/foundation/foundation.reveal.js"></script>
+    <script src="js/foundation/foundation.section.js"></script>
+    <script src="js/foundation/foundation.tooltips.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
+    <script src="js/foundation/foundation.interchange.js"></script>
+    <script>
+        $(document).foundation();
+    </script> 
+
+    <script src="script.js"></script>
+    <script src="nav.js"></script>
+</body>
+</html>
