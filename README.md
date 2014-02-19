@@ -1,6 +1,6 @@
 Cardio NOVA
 ===========
-#### An Hackathon Project
+#### A Hackathon Project
 
 *Novartis Mobile Health Challenge, San Francisco; Oct. 25-27, 2013*
 
